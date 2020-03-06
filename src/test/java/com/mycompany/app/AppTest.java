@@ -21,7 +21,7 @@ public class AppTest
 
     @Test
     public void testAdd() {
-        assertTrue(2 == App.add(1,1));
+        assertTrue(2 == new App().add(1,1));
     }
 
 }

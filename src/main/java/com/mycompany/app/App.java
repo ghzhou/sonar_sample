@@ -6,12 +6,17 @@ package com.mycompany.app;
  */
 public class App 
 {
+
+
+    public int i = 0;
+
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
     }
 
-    public static int add(int a, int b) {
+    public int add(int a, int b) {
+	i = i+1;
 	return a + b;
     }
 }
